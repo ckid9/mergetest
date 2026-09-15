@@ -3,5 +3,5 @@ print('I have cleaned all. [Change from master branch]')
 print('Using b2!')
 print('new line from b2')
 
-def masterFunc():
+def FIX_func():
     pass
