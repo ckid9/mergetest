@@ -3,7 +3,7 @@ import time
 # ❌ МЕДЛЕННО: exec() парсит строку каждый раз
 formula = "x * 2 + y / 3"
 x, y = 10, 20
-
+print('remote change')
 start = time.time()
 for _ in range(100000):
     exec(f"result = {formula}")  # Парсится 100 000 раз!
